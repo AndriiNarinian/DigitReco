@@ -19,11 +19,6 @@ class SettingsViewController: UIViewController {
         self.view = settingsView
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
-    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return UIStatusBarStyle.lightContent
     }
